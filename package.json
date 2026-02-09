@@ -1,24 +1,33 @@
 {
-  "name": "order-machine",
+  "name": "@dixxanta08/stategate",
   "version": "0.1.0",
-  "description": "Deterministic order state machine",
+  "description": "Deterministic state machine for backend workflows",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
     "dist"
   ],
-  "scripts": {
-    "build": "tsc",
-    "test": "jest",
-    "prepublishOnly": "npm run build"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dixxanta08/stategate.git"
+  },
+  "homepage": "https://github.com/dixxanta08/stategate",
+  "bugs": {
+    "url": "https://github.com/dixxanta08/stategate/issues"
   },
   "keywords": [
     "state-machine",
     "orders",
     "backend",
-    "ecommerce"
+    "ecommerce",
+    "fsm"
   ],
   "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "prepublishOnly": "npm run build"
+  },
   "devDependencies": {
     "@types/jest": "^29.5.12",
     "jest": "^30.2.0",
